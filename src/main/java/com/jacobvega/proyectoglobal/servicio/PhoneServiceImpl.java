@@ -30,8 +30,6 @@ public class PhoneServiceImpl implements PhoneService {
 			ph.setUserid(userid);
 			phoneRepository.save(ph);
 		}
-		//System.out.println("Recibo ID: " + userid);
-		//System.out.println("Lista: " + phones.size());
 	}
 	
 }

@@ -16,6 +16,4 @@ public interface UserService {
 	
 	UserDetails loadUserByEmail(String email);
 	
-	//String signin(String email, String password);
-	
 }

@@ -12,7 +12,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import com.jacobvega.proyectoglobal.controlador.UserController;
 import com.jacobvega.proyectoglobal.dto.PhoneDTO;
 import com.jacobvega.proyectoglobal.dto.UserDTO;
-import com.jacobvega.proyectoglobal.modelo.Phone;
 import com.jacobvega.proyectoglobal.servicio.UserService;
 
 @SpringBootTest

@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -98,14 +97,5 @@ public class UserController {
 		return new ResponseEntity<GenericDTO>(resp,HttpStatus.CREATED);
 
 	}
-
-	/*@PostMapping("/obtener")
-	public ResponseEntity<GenericDTO> login(@RequestParam String email, @RequestParam String password) {
-		String tokengenerado = userService.signin(email, password);
-		GenericDTO resp = new GenericDTO();
-		resp.setCodigo("200");
-		resp.setMensaje("Se ha reestablecido el token del usuario " + email + ". Nuevo token: " + tokengenerado);
-		return new ResponseEntity<GenericDTO>(resp,HttpStatus.OK);		
-	}*/
 
 }
